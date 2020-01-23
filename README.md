@@ -7,7 +7,7 @@ This Docker image will run whatever application is installed in the `/app` direc
 In order to install your application you can either map a volume into the `/app` directory:
 
 ```bash
-docker run -p 8080:80 -v <path to my web app>:/app hpgy/mono-xsp4 
+docker run -p 8080:80 -v <path to my web app>:/app rubms/xsp4
 ```
 
 or create you own image via a Dockerfile, based on this image:
